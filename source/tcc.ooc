@@ -1,4 +1,5 @@
 include libtcc
+import structs/ArrayList
 
 Tcc: cover from TCCState* {
     new: extern(tcc_new) static func -> This
@@ -17,7 +18,11 @@ Tcc: cover from TCCState* {
     addLibrary: extern(tcc_add_library) func(CString)->Int
     addSymbol: extern(tcc_add_symbol) func(CString,Pointer)->Int
     outputFile: extern(tcc_output_file) func(CString)->Int
-    run: extern(tcc_run) func(Int,CString*)->Int // Do this with ArrayList<String>
+    run: extern(tcc_run) func(Int,CString*)->Int
+    run: func~alist(a: ArrayList<String>) {
+        b := a map(|elem| elem toCString())
+        run(b getSize(),b toArray())
+    }
     relocate: extern(tcc_relocate) func(Pointer)->Int
     getSymbol: extern(tcc_get_symbol) func(CString)->Pointer
     setLibPath: extern(tcc_set_lib_path) func(CString)

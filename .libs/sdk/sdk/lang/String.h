@@ -13,7 +13,7 @@ struct _lang_String__String {
 };
 
 
-struct ___lang_String_closure217_ctx {
+struct ___lang_String_closure220_ctx {
     lang_Character__Char** argv;
     structs_ArrayList__ArrayList* result;
 };
@@ -93,7 +93,7 @@ struct _lang_String__StringClass {
 };
 
 
-struct ___lang_String_closure217_ctxClass {
+struct ___lang_String_closure220_ctxClass {
     struct _lang_types__ClassClass __super__;
 };
 
@@ -103,8 +103,8 @@ struct ___lang_String_closure217_ctxClass {
 #define strArrayListFromCString(argc, argv) (void*) lang_String__strArrayListFromCString((argc), (argv))
 #define strArrayListFromCString_hack(argc, argv) (void*) lang_String__strArrayListFromCString_hack((argc), (void*) (argv))
 #define cStringPtrToStringPtr(cstr, len) (void*) lang_String__cStringPtrToStringPtr((cstr), (len))
-#define __lang_String_closure217(argv, result, i) lang_String____lang_String_closure217((argv), (void*) (result), (i))
-#define __lang_String_closure217_thunk(i, __context__) lang_String____lang_String_closure217_thunk((i), (__context__))
+#define __lang_String_closure220(argv, result, i) lang_String____lang_String_closure220((argv), (void*) (result), (i))
+#define __lang_String_closure220_thunk(i, __context__) lang_String____lang_String_closure220_thunk((i), (__context__))
 #define String lang_String__String
 #define String_class() lang_String__String_class()
 #define StringClass lang_String__StringClass

@@ -25,11 +25,20 @@ typedef struct _tcc__OutputTypeClass tcc__OutputTypeClass;
 #include <sdk/lang/types-fwd.h>
 #include <sdk/lang/IO-fwd.h>
 #include <sdk/lang/Buffer-fwd.h>
+#include <sdk/structs/ArrayList-fwd.h>
 
 #ifndef __FUNC___Pointer_CString__DEFINE
 #define __FUNC___Pointer_CString__DEFINE
 
 typedef void (*__FUNC___Pointer_CString)(lang_types__Pointer, lang_Character__CString, void*);
+
+#endif
+
+
+#ifndef __FUNC___T_K__DEFINE
+#define __FUNC___T_K__DEFINE
+
+typedef void (*__FUNC___T_K)(uint8_t*, uint8_t*, void*);
 
 #endif
 
@@ -69,6 +78,7 @@ tcc__TccClass *tcc__Tcc_class();
 
 #define tcc__Tcc_run tcc_run
 
+void tcc__Tcc_run_alist(tcc__Tcc this, structs_ArrayList__ArrayList* a);
 #define tcc__Tcc_relocate tcc_relocate
 
 #define tcc__Tcc_getSymbol tcc_get_symbol
@@ -80,5 +90,6 @@ void tcc__Tcc___load__();
 
 tcc__OutputTypeClass *tcc__OutputType_class();
 void tcc_load();
+void tcc____tcc_closure216(uint8_t* __genericReturn117, uint8_t* elem_generic);
 
 #endif // ___tcc_fwd___

@@ -8,6 +8,7 @@
 
 struct _tcc__TccClass {
     struct _lang_types__ClassClass __super__;
+    void (*run_alist)(tcc__Tcc, structs_ArrayList__ArrayList*);
 };
 
 
@@ -17,6 +18,7 @@ struct _tcc__OutputTypeClass {
 
 
 #ifdef OOC_FROM_C
+#define __tcc_closure216(__genericReturn117, elem_generic) tcc____tcc_closure216((__genericReturn117), (elem_generic))
 #define Tcc tcc__Tcc
 #define Tcc_class() tcc__Tcc_class()
 #define TccClass tcc__TccClass
@@ -38,6 +40,7 @@ struct _tcc__OutputTypeClass {
 #define Tcc_addSymbol(_this_, , ) tcc__Tcc_addSymbol((void*) (_this_), (), (void*) ())
 #define Tcc_outputFile(_this_, ) tcc__Tcc_outputFile((void*) (_this_), ())
 #define Tcc_run(_this_, , ) tcc__Tcc_run((void*) (_this_), (), ())
+#define Tcc_run_alist(_this_, a) tcc__Tcc_run_alist((void*) (_this_), (void*) (a))
 #define Tcc_relocate(_this_, ) tcc__Tcc_relocate((void*) (_this_), (void*) ())
 #define Tcc_getSymbol(_this_, ) (void*) tcc__Tcc_getSymbol((void*) (_this_), ())
 #define Tcc_setLibPath(_this_, ) tcc__Tcc_setLibPath((void*) (_this_), ())

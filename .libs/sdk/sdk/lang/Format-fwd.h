@@ -8,15 +8,15 @@ typedef struct _lang_Format__InvalidFormatException lang_Format__InvalidFormatEx
 struct _lang_Format__InvalidTypeException;
 typedef struct _lang_Format__InvalidTypeException lang_Format__InvalidTypeException;
 typedef struct _lang_Format__FSInfoStruct lang_Format__FSInfoStruct;
-typedef struct ___lang_Format_closure214_ctx __lang_Format_closure214_ctx;
+typedef struct ___lang_Format_closure217_ctx __lang_Format_closure217_ctx;
 struct _lang_Format__InvalidFormatExceptionClass;
 typedef struct _lang_Format__InvalidFormatExceptionClass lang_Format__InvalidFormatExceptionClass;
 struct _lang_Format__InvalidTypeExceptionClass;
 typedef struct _lang_Format__InvalidTypeExceptionClass lang_Format__InvalidTypeExceptionClass;
 struct _lang_Format__FSInfoStructClass;
 typedef struct _lang_Format__FSInfoStructClass lang_Format__FSInfoStructClass;
-struct ___lang_Format_closure214_ctxClass;
-typedef struct ___lang_Format_closure214_ctxClass __lang_Format_closure214_ctxClass;
+struct ___lang_Format_closure217_ctxClass;
+typedef struct ___lang_Format_closure217_ctxClass __lang_Format_closure217_ctxClass;
 
 #include <sdk/lang/String-fwd.h>
 #include <sdk/lang/BufferIterator-fwd.h>
@@ -53,8 +53,8 @@ void lang_Format__InvalidTypeException___defaults___impl(lang_Format__InvalidTyp
 void lang_Format__InvalidTypeException___load__();
 lang_Format__FSInfoStructClass *lang_Format__FSInfoStruct_class();
 void lang_Format__FSInfoStruct___load__();
-__lang_Format_closure214_ctxClass *__lang_Format_closure214_ctx_class();
-void __lang_Format_closure214_ctx___load__();
+__lang_Format_closure217_ctxClass *__lang_Format_closure217_ctx_class();
+void __lang_Format_closure217_ctx___load__();
 extern lang_Numbers__SSizeT lang_Format__TF_ALTERNATE;
 extern lang_Numbers__SSizeT lang_Format__TF_ZEROPAD;
 extern lang_Numbers__SSizeT lang_Format__TF_LEFT;
@@ -77,7 +77,7 @@ lang_Numbers__SizeT lang_Format__getSizeFromStringType(lang_types__Class* T, uin
 void lang_Format__parseArg(lang_Buffer__Buffer* res, lang_Format__FSInfoStruct* info, lang_VarArgs__VarArgsIterator* va, lang_Character__Char* p);
 void lang_Format__getEntityInfo(lang_Format__FSInfoStruct* info, lang_VarArgs__VarArgsIterator* va, lang_Character__Char* start, lang_types__Pointer end);
 void lang_Format__format_main(uint8_t* __genericReturn24, lang_types__Class* T, uint8_t* fmt, lang_VarArgs__VarArgs args);
-void lang_Format____lang_Format_closure214(lang_types__Pointer end, lang_Character__Char* start, lang_Character__Char** p);
-void lang_Format____lang_Format_closure214_thunk(__lang_Format_closure214_ctx* __context__);
+void lang_Format____lang_Format_closure217(lang_types__Pointer end, lang_Character__Char* start, lang_Character__Char** p);
+void lang_Format____lang_Format_closure217_thunk(__lang_Format_closure217_ctx* __context__);
 
 #endif // ___lang_Format_fwd___

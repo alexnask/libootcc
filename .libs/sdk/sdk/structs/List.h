@@ -13,13 +13,13 @@ struct _structs_List__List {
 };
 
 
-struct ___structs_List_closure208_ctx {
+struct ___structs_List_closure210_ctx {
     lang_types__Closure f;
     structs_List__List* copy;
     lang_types__Class* K;
 };
 
-struct ___structs_List_closure211_ctx {
+struct ___structs_List_closure213_ctx {
     lang_types__Closure f;
     structs_List__List* copy;
 };
@@ -64,21 +64,21 @@ struct _structs_List__ListClass {
 };
 
 
-struct ___structs_List_closure208_ctxClass {
+struct ___structs_List_closure210_ctxClass {
     struct _lang_types__ClassClass __super__;
 };
 
 
-struct ___structs_List_closure211_ctxClass {
+struct ___structs_List_closure213_ctxClass {
     struct _lang_types__ClassClass __super__;
 };
 
 
 #ifdef OOC_FROM_C
-#define __structs_List_closure208(f, copy, K, x) structs_List____structs_List_closure208((f), (void*) (copy), (void*) (K), (x))
-#define __structs_List_closure208_thunk(x, __context__) structs_List____structs_List_closure208_thunk((x), (__context__))
-#define __structs_List_closure211(f, copy, x) structs_List____structs_List_closure211((f), (void*) (copy), (x))
-#define __structs_List_closure211_thunk(x, __context__) structs_List____structs_List_closure211_thunk((x), (__context__))
+#define __structs_List_closure210(f, copy, K, x) structs_List____structs_List_closure210((f), (void*) (copy), (void*) (K), (x))
+#define __structs_List_closure210_thunk(x, __context__) structs_List____structs_List_closure210_thunk((x), (__context__))
+#define __structs_List_closure213(f, copy, x) structs_List____structs_List_closure213((f), (void*) (copy), (x))
+#define __structs_List_closure213_thunk(x, __context__) structs_List____structs_List_closure213_thunk((x), (__context__))
 #define List structs_List__List
 #define List_class() structs_List__List_class()
 #define ListClass structs_List__ListClass

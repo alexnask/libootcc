@@ -18,7 +18,9 @@
 #include <sdk/lang/IO-fwd.h>
 #include <sdk/lang/Buffer-fwd.h>
 #include <source/tcc-fwd.h>
+#include <sdk/structs/ArrayList-fwd.h>
 extern tcc__Tcc example__tcc;
+extern _lang_array__Array __arrLit217;
 void example_load();
 
 #endif // ___example_fwd___

@@ -25,7 +25,7 @@ struct _lang_Format__FSInfoStruct {
     lang_Numbers__SizeT bytesProcessed;
 };
 
-struct ___lang_Format_closure214_ctx {
+struct ___lang_Format_closure217_ctx {
     lang_types__Pointer end;
     lang_Character__Char* start;
     lang_Character__Char** p;
@@ -46,7 +46,7 @@ struct _lang_Format__FSInfoStructClass {
 };
 
 
-struct ___lang_Format_closure214_ctxClass {
+struct ___lang_Format_closure217_ctxClass {
     struct _lang_types__ClassClass __super__;
 };
 
@@ -59,8 +59,8 @@ struct ___lang_Format_closure214_ctxClass {
 #define parseArg(res, info, va, p) lang_Format__parseArg((void*) (res), (info), (va), (p))
 #define getEntityInfo(info, va, start, end) lang_Format__getEntityInfo((info), (va), (start), (void*) (end))
 #define format_main(__genericReturn24, T, fmt, ...) lang_Format__format_main((__genericReturn24), (T), (fmt), __VA_ARGS__)
-#define __lang_Format_closure214(end, start, p) lang_Format____lang_Format_closure214((void*) (end), (start), (p))
-#define __lang_Format_closure214_thunk(__context__) lang_Format____lang_Format_closure214_thunk((__context__))
+#define __lang_Format_closure217(end, start, p) lang_Format____lang_Format_closure217((void*) (end), (start), (p))
+#define __lang_Format_closure217_thunk(__context__) lang_Format____lang_Format_closure217_thunk((__context__))
 #define InvalidFormatException lang_Format__InvalidFormatException
 #define InvalidFormatException_class() lang_Format__InvalidFormatException_class()
 #define InvalidFormatExceptionClass lang_Format__InvalidFormatExceptionClass

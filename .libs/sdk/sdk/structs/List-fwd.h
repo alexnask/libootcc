@@ -5,14 +5,14 @@
 
 struct _structs_List__List;
 typedef struct _structs_List__List structs_List__List;
-typedef struct ___structs_List_closure208_ctx __structs_List_closure208_ctx;
-typedef struct ___structs_List_closure211_ctx __structs_List_closure211_ctx;
+typedef struct ___structs_List_closure210_ctx __structs_List_closure210_ctx;
+typedef struct ___structs_List_closure213_ctx __structs_List_closure213_ctx;
 struct _structs_List__ListClass;
 typedef struct _structs_List__ListClass structs_List__ListClass;
-struct ___structs_List_closure208_ctxClass;
-typedef struct ___structs_List_closure208_ctxClass __structs_List_closure208_ctxClass;
-struct ___structs_List_closure211_ctxClass;
-typedef struct ___structs_List_closure211_ctxClass __structs_List_closure211_ctxClass;
+struct ___structs_List_closure210_ctxClass;
+typedef struct ___structs_List_closure210_ctxClass __structs_List_closure210_ctxClass;
+struct ___structs_List_closure213_ctxClass;
+typedef struct ___structs_List_closure213_ctxClass __structs_List_closure213_ctxClass;
 
 #include <sdk/lang/String-fwd.h>
 #include <sdk/lang/BufferIterator-fwd.h>
@@ -135,15 +135,15 @@ lang_Numbers__SSizeT structs_List__List___getsize___impl(structs_List__List* thi
 void structs_List__List___defaults__(structs_List__List* this);
 void structs_List__List___defaults___impl(structs_List__List* this);
 void structs_List__List___load__();
-__structs_List_closure208_ctxClass *__structs_List_closure208_ctx_class();
-void __structs_List_closure208_ctx___load__();
-__structs_List_closure211_ctxClass *__structs_List_closure211_ctx_class();
-void __structs_List_closure211_ctx___load__();
+__structs_List_closure210_ctxClass *__structs_List_closure210_ctx_class();
+void __structs_List_closure210_ctx___load__();
+__structs_List_closure213_ctxClass *__structs_List_closure213_ctx_class();
+void __structs_List_closure213_ctx___load__();
 void structs_List_load();
-void structs_List____structs_List_closure208(lang_types__Closure f, structs_List__List* copy, lang_types__Class* K, uint8_t* x);
-void structs_List____structs_List_closure208_thunk(uint8_t* x, __structs_List_closure208_ctx* __context__);
-void structs_List____structs_List_closure211(lang_types__Closure f, structs_List__List* copy, uint8_t* x);
-void structs_List____structs_List_closure211_thunk(uint8_t* x, __structs_List_closure211_ctx* __context__);
+void structs_List____structs_List_closure210(lang_types__Closure f, structs_List__List* copy, lang_types__Class* K, uint8_t* x);
+void structs_List____structs_List_closure210_thunk(uint8_t* x, __structs_List_closure210_ctx* __context__);
+void structs_List____structs_List_closure213(lang_types__Closure f, structs_List__List* copy, uint8_t* x);
+void structs_List____structs_List_closure213_thunk(uint8_t* x, __structs_List_closure213_ctx* __context__);
 void structs_List____OP_IDX_List_SSizeT__T(uint8_t* __genericReturn63, lang_types__Class* T, structs_List__List* list, lang_Numbers__SSizeT i);
 void structs_List____OP_IDX_ASS_List_SSizeT_T(lang_types__Class* T, structs_List__List* list, lang_Numbers__SSizeT i, uint8_t* element);
 void structs_List____OP_ADD_ASS_List_T(lang_types__Class* T, structs_List__List* list, uint8_t* element);

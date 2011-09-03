@@ -5,11 +5,11 @@
 
 struct _lang_String__String;
 typedef struct _lang_String__String lang_String__String;
-typedef struct ___lang_String_closure217_ctx __lang_String_closure217_ctx;
+typedef struct ___lang_String_closure220_ctx __lang_String_closure220_ctx;
 struct _lang_String__StringClass;
 typedef struct _lang_String__StringClass lang_String__StringClass;
-struct ___lang_String_closure217_ctxClass;
-typedef struct ___lang_String_closure217_ctxClass __lang_String_closure217_ctxClass;
+struct ___lang_String_closure220_ctxClass;
+typedef struct ___lang_String_closure220_ctxClass __lang_String_closure220_ctxClass;
 
 #include <sdk/lang/BufferIterator-fwd.h>
 #include <sdk/lang/Character-fwd.h>
@@ -179,15 +179,15 @@ lang_Numbers__SSizeT lang_String__String___getsize___impl(lang_String__String* t
 void lang_String__String___defaults__(lang_String__String* this);
 void lang_String__String___defaults___impl(lang_String__String* this);
 void lang_String__String___load__();
-__lang_String_closure217_ctxClass *__lang_String_closure217_ctx_class();
-void __lang_String_closure217_ctx___load__();
+__lang_String_closure220_ctxClass *__lang_String_closure220_ctx_class();
+void __lang_String_closure220_ctx___load__();
 void lang_String_load();
 lang_String__String* lang_String__makeStringLiteral(lang_Character__CString str, lang_Numbers__SizeT strLen);
 structs_ArrayList__ArrayList* lang_String__strArrayListFromCString(lang_Numbers__Int argc, lang_Character__Char** argv);
 structs_ArrayList__ArrayList* lang_String__strArrayListFromCString_hack(lang_Numbers__Int argc, lang_String__String** argv);
 lang_String__String** lang_String__cStringPtrToStringPtr(lang_Character__CString* cstr, lang_Numbers__SizeT len);
-void lang_String____lang_String_closure217(lang_Character__Char** argv, structs_ArrayList__ArrayList* result, lang_Numbers__LLong i);
-void lang_String____lang_String_closure217_thunk(lang_Numbers__LLong i, __lang_String_closure217_ctx* __context__);
+void lang_String____lang_String_closure220(lang_Character__Char** argv, structs_ArrayList__ArrayList* result, lang_Numbers__LLong i);
+void lang_String____lang_String_closure220_thunk(lang_Numbers__LLong i, __lang_String_closure220_ctx* __context__);
 lang_String__String* lang_String____OP_AS_Char__star__String(lang_Character__Char* c);
 lang_String__String* lang_String____OP_AS_CString__String(lang_Character__CString c);
 lang_Character__Char* lang_String____OP_AS_String__Char__star(lang_String__String* s);
