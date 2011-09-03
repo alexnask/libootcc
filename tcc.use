@@ -1,0 +1,4 @@
+Name: libootcc
+Libs: -ltcc
+Libs: -ldl
+SourcePath: source

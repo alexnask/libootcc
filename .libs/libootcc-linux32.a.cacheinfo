@@ -1,0 +1,8 @@
+cacheversion
+0.3
+ -gc=static -backend=c -D__OOC_USE_GC__ -DGC_NO_THREAD_REDIRECTS
+0.9.2-head
+1
+example.ooc
+1315043093
+0
